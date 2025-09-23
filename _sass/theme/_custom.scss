@@ -651,7 +651,8 @@ html[data-theme="dark"] .sanam-card:hover {
 
   .sanam-hero__media {
     order: -1;
-    justify-items: flex-start;
+    justify-items: center;
+    align-items: center;
   }
 
   .sanam-hero__cta {
@@ -693,6 +694,12 @@ html[data-theme="dark"] .sanam-card:hover {
 
   .sanam-hero-details__copy {
     gap: clamp(1rem, 6vw, 1.8rem);
+  }
+
+  /* Center hero media (image + card) on small screens */
+  .sanam-hero__media {
+    justify-items: center;
+    align-items: center;
   }
 }
 

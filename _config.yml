@@ -14,8 +14,8 @@ title_separator          : "-"
 name                     : &name "Sanamjeet Singh Meyer"
 description              : &description "AI and data analytics specialist building human-centered mobility intelligence."
 url                      : https://sanammeyer.github.io # GitHub Pages user URL (no trailing slash)
-baseurl                  : "/sanamjeet-meyer.github.io" # project site subpath (leading slash required)
-repository               : "sanammeyer/sanamjeet-meyer.github.io"
+baseurl                  : "" # project site subpath (leading slash required)
+repository               : "sanammeyer/sanammeyer.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.

@@ -255,6 +255,24 @@ body {
   text-decoration: none;
 }
 
+.sanam-button i {
+  font-size: 1.05em;
+  line-height: 1;
+}
+
+/* Branded accents */
+.sanam-button--linkedin i { color: #0A66C2; }
+.sanam-button--linkedin:hover {
+  border-color: rgba(10, 102, 194, 0.35);
+  background: rgba(10, 102, 194, 0.12);
+}
+
+.sanam-button--email i { color: #EA4335; }
+.sanam-button--email:hover {
+  border-color: rgba(234, 67, 53, 0.35);
+  background: rgba(234, 67, 53, 0.10);
+}
+
 .sanam-button--primary {
   background: var(--sanam-text);
   color: var(--sanam-surface);

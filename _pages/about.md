@@ -24,9 +24,18 @@ author_profile: false
   <div class="sanam-hero-details__copy">
     <p>At the BMW Group, I translate complex mobility data into responsive dashboards, scalable pipelines and machine learning workflows. These are utilised by multiple teams to facilitate root cause analysis and automate processes. Meanwhile, in the final stage of my Master's degree, I am researching ways to improve tabular foundation models.</p>
     <div class="sanam-hero__cta">
-      <a class="sanam-button sanam-button--primary" href="{{ '/cv/' | relative_url }}">View full CV</a>
-      <a class="sanam-button sanam-button--ghost" href="mailto:sanam.meyer@gmail.com">Email</a>
-      <a class="sanam-button sanam-button--ghost" href="https://linkedin.com/in/sanamjeet-meyer/">LinkedIn</a>
+      <a class="sanam-button sanam-button--primary" href="{{ '/cv/' | relative_url }}" title="View full CV">
+        <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
+        <span>View full CV</span>
+      </a>
+      <a class="sanam-button sanam-button--ghost sanam-button--email" href="mailto:sanam.meyer@gmail.com" title="Email">
+        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        <span>Email</span>
+      </a>
+      <a class="sanam-button sanam-button--ghost sanam-button--linkedin" href="https://linkedin.com/in/sanamjeet-meyer/" title="LinkedIn">
+        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+        <span>LinkedIn</span>
+      </a>
     </div>
   </div>
   <div class="sanam-hero-details__list">

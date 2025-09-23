@@ -152,6 +152,12 @@ analytics:
   google:
     tracking_id          :
 
+# Cloudflare Web Analytics (set token to enable)
+cloudflare_analytics:
+  # Sign up at Cloudflare Web Analytics and copy your token here.
+  # When set, a lightweight beacon script is injected and a tiny footnote is shown.
+  token: "1ef952c875da446698436db1ee0d1b41"
+
 
 # Reading Files
 include:

@@ -19,6 +19,20 @@
 
 <!-- end custom head snippets -->
 
+{% if site.cloudflare_analytics and site.cloudflare_analytics.token and site.cloudflare_analytics.token != '' %}
+<script>
+(function(){
+  var dnt = (navigator.doNotTrack === '1' || window.doNotTrack === '1' || navigator.msDoNotTrack === '1');
+  if (dnt) return;
+  var s=document.createElement('script');
+  s.defer=true;
+  s.src='https://static.cloudflareinsights.com/beacon.min.js';
+  s.setAttribute('data-cf-beacon', JSON.stringify({ token: '{{ site.cloudflare_analytics.token }}' }));
+  document.head.appendChild(s);
+})();
+</script>
+{% endif %}
+
 <script>
 // Close the greedy-nav hidden menu when clicking outside or pressing Escape
 document.addEventListener('DOMContentLoaded', function () {

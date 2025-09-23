@@ -642,23 +642,38 @@ html[data-theme="dark"] .sanam-card:hover {
 }
 
 .sanam-contact__links {
-  display: grid;
+  display: flex;
   gap: 0.9rem;
-  justify-items: start;
+  align-items: center;
 }
 
-.sanam-contact__links a {
-  font-weight: 600;
-  color: var(--sanam-text);
-  padding-bottom: 0.2rem;
-  border-bottom: 1px solid transparent;
-  transition: color 0.2s ease, border-color 0.2s ease;
+/* Icon-style contact links */
+.icon-link {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid var(--sanam-border);
+  background: var(--sanam-surface);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+  text-decoration: none !important;
 }
 
-.sanam-contact__links a:hover {
-  color: var(--sanam-primary);
-  border-color: var(--sanam-primary);
-}
+.icon-link:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(15,23,42,0.12); }
+.icon-link i { font-size: 1.05rem; }
+
+/* Brand accents */
+.icon-link--linkedin i { color: #0A66C2; }
+.icon-link--linkedin:hover { border-color: rgba(10, 102, 194, 0.35); background: rgba(10,102,194,0.08); }
+
+.icon-link--email i { color: #EA4335; }
+.icon-link--email:hover { border-color: rgba(234, 67, 53, 0.35); background: rgba(234,67,53,0.08); }
+
+.icon-link--phone i { color: #10B981; }
+.icon-link--phone:hover { border-color: rgba(16,185,129,0.35); background: rgba(16,185,129,0.08); }
 
 @media (max-width: 960px) {
   .sanam-hero {
@@ -739,10 +754,9 @@ html[data-theme="dark"] .sanam-card:hover {
   }
 }
 
-/* Remove lower footnotes/footer */
-/* Hide theme footer on the landing page */
+/* Show a minimal footer area to host the analytics footnote */
 #main.main--wide + .page__footer {
-  display: none !important;
+  display: block !important;
 }
 
 /* Optionally hide markdown footnotes site-wide */

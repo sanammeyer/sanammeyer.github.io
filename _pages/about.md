@@ -207,9 +207,15 @@ author_profile: false
       <h2>Let’s build the next intelligent product.</h2>
     </div>
     <div class="sanam-contact__links">
-      <a href="mailto:sanam.meyer@gmail.com">sanam.meyer@gmail.com</a>
-      <a href="tel:+4916097591310">+49&nbsp;160&nbsp;97591310</a>
-      <a href="https://linkedin.com/in/sanamjeet-meyer/">LinkedIn</a>
+      <a class="icon-link icon-link--email" href="mailto:sanam.meyer@gmail.com" aria-label="Email">
+        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+      </a>
+      <a class="icon-link icon-link--phone" href="tel:+4916097591310" aria-label="Call">
+        <i class="fa-solid fa-phone" aria-hidden="true"></i>
+      </a>
+      <a class="icon-link icon-link--linkedin" href="https://linkedin.com/in/sanamjeet-meyer/" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+      </a>
     </div>
   </div>
 </section>

@@ -1,0 +1,8 @@
+{% if site.cloudflare_analytics and site.cloudflare_analytics.token and site.cloudflare_analytics.token != '' %}
+<div class="analytics-footnote" aria-hidden="true">
+  Cloudflare Web Analytics enabled
+  <style>
+    .analytics-footnote{font-size:10px;opacity:.6;color:var(--global-text-color-light);text-align:center;padding:6px 0}
+  </style>
+  </div>
+{% endif %}

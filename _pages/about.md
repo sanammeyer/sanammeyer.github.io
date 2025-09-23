@@ -1,49 +1,206 @@
 ---
+layout: home
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+title: "Sanamjeet Singh Meyer"
+author_profile: false
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<div class="sanam-hero">
+  <div class="sanam-hero__text">
+    <span class="sanam-eyebrow">AI &amp; Data Analytics</span>
+    <h1>Gradient descending through life. Tuning my learning rate as i go.</h1>
+  </div>
+  <div class="sanam-hero__media">
+    <img class="sanam-portrait" src="{{ '/profile_picture.png' | relative_url }}" alt="Portrait of Sanamjeet Singh Meyer"/>
+    <div class="sanam-hero__card">
+      <p class="sanam-hero__label">Currently</p>
+      <p class="sanam-hero__title">Working Student · BMW Group</p>
+      <p class="sanam-hero__meta">Big Data Analytics · Munich, GER</p>
+    </div>
+  </div>
+</div>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<section class="sanam-hero-details">
+  <div class="sanam-hero-details__copy">
+    <p>At the BMW Group, I translate complex mobility data into responsive dashboards, scalable pipelines and machine learning workflows. These are utilised by multiple teams to facilitate root cause analysis and automate processes. Meanwhile, in the final stage of my Master's degree, I am researching ways to improve tabular foundation models.</p>
+    <div class="sanam-hero__cta">
+      <a class="sanam-button sanam-button--primary" href="/cv/">View full CV</a>
+      <a class="sanam-button sanam-button--ghost" href="mailto:sanam.meyer@gmail.com">Email</a>
+      <a class="sanam-button sanam-button--ghost" href="https://linkedin.com/in/sanamjeet-meyer/">LinkedIn</a>
+    </div>
+  </div>
+  <div class="sanam-hero-details__list">
+    <ul class="sanam-hero__highlights">
+      <li>
+        <strong>LLM-enabled claims insights</strong>
+        <span>Cut manual work by 80% and saved up to €400K per year.</span>
+      </li>
+      <li>
+        <strong>Palantir Foundry dashboards</strong>
+        <span>Production-ready analytics powering live vehicle diagnostics.</span>
+      </li>
+      <li>
+        <strong>PySpark pipelines at scale</strong>
+        <span>Terabytes of telemetry processed with reliability and clarity.</span>
+      </li>
+      <!-- <li>
+        <strong>Time series classification</strong>
+        <span>Classification of mutltivariate categorical time series data</span>
+      </li>   -->
+    </ul>
+  </div>
+</section>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<section id="experience" class="sanam-section">
+  <header class="sanam-section__header">
+    <span class="sanam-section__eyebrow">Experience</span>
+    <h2 class="sanam-section__title">Recent roles</h2>
+    <!-- <p class="sanam-section__subtitle">Bringing structure to noisy data so teams can uncover issues faster and act with confidence.</p> -->
+  </header>
+  <div class="sanam-timeline">
+    <article class="sanam-timeline__item">
+      <div class="sanam-timeline__top">
+        <h3 class="sanam-timeline__role">Working Student — Big Data Analytics</h3>
+        <p class="sanam-timeline__meta">BMW Group · Munich, GER · Apr&nbsp;2024 – Present</p>
+      </div>
+      <ul class="sanam-timeline__points">
+        <li>Developed dashboards inside Palantir Foundry for live vehicle diagnostics and claims data used by quality management teams.</li>
+        <li>Enabled cross-functional Quality Management teams to identify emerging issues and accelerate root cause analysis..</li>
+        <li>Built PySpark data pipelines to process terabytes of vehicle data using PySpark.</li>
+        <li>Engineered an LLM-based clustering workflow that trimmed manual effort by 80% potentially saving up to €400K annually.</li>
+        <li>Designed and deployed an MLOps pipeline to classify system issues from multiple ECU signal streams.</li>
+      </ul>
+    </article>
+    <article class="sanam-timeline__item">
+      <div class="sanam-timeline__top">
+        <h3 class="sanam-timeline__role">Working Student — IT Project Management &amp; Organization</h3>
+        <p class="sanam-timeline__meta">BSH Home Appliances Group · Munich, GER · Sep&nbsp;2023 – Feb&nbsp;2024</p>
+      </div>
+      <ul class="sanam-timeline__points">
+        <li>Coordinated Jira-managed initiatives and facilitated meetings across distributed project teams.</li>
+        <li>Enabled smooth adoption of collaboration tooling through hands-on training and documentation.</li>
+      </ul>
+    </article>
+    <article class="sanam-timeline__item">
+      <div class="sanam-timeline__top">
+        <h3 class="sanam-timeline__role">Working Student / Intern — Data Science</h3>
+        <p class="sanam-timeline__meta">Dräxlmaier Group · Munich, GER · Sep&nbsp;2022 – Jul&nbsp;2023</p>
+      </div>
+      <ul class="sanam-timeline__points">
+        <li>Extended BMW vehicle test data pipelines to capture, clean, and prepare analytics-ready datasets.</li>
+        <li>Evaluated feature engineering and classification techniques for automated error detection.</li>
+        <li>Delivered a multi-class classification prototype with ~90% accuracy plus a roadmap for scaled rollout.</li>
+      </ul>
+    </article>
+  </div>
+</section>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<section id="projects" class="sanam-section">
+  <header class="sanam-section__header">
+    <span class="sanam-section__eyebrow">Projects</span>
+    <h2 class="sanam-section__title">Selected work</h2>
+  </header>
+  <div class="sanam-grid sanam-grid--two">
+    <article class="sanam-card">
+      <p class="sanam-card__meta">Aug&nbsp;2023 – Jan&nbsp;2024 · AI4CARE</p>
+      <h3 class="sanam-card__title">Detecting anomalies in elderly people's daily activities</h3>
+      <p class="sanam-card__body">Built a thesis prototype that spots unusual household appliance patterns and flags potential risks using uncertainty-aware reasoning.</p>
+    </article>
+    <article class="sanam-card">
+      <p class="sanam-card__meta">Mar&nbsp;2023 – Jul&nbsp;2023 · b-plus Group</p>
+      <h3 class="sanam-card__title">Smart recording pipeline for autonomous driving</h3>
+      <p class="sanam-card__body">Fused LiDAR and camera data using Python and PyTorch to detect anomalies and segment critical objects in traffic scenes.</p>
+    </article>
+    <article class="sanam-card">
+      <p class="sanam-card__meta">May&nbsp;2023 · BMW Innovation Challenge</p>
+      <h3 class="sanam-card__title">Predictive maintenance of production lines</h3>
+      <p class="sanam-card__body">Captured anomalies in production power data within a 24-hour sprint using unsupervised ML approaches in Azure ML.</p>
+    </article>
+  </div>
+</section>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<section id="skills" class="sanam-section">
+  <header class="sanam-section__header">
+    <span class="sanam-section__eyebrow">Skills</span>
+    <h2 class="sanam-section__title">Toolbox</h2>
+  </header>
+  <div class="sanam-grid sanam-grid--two sanam-grid--stack">
+    <div class="sanam-list-card">
+      <h3>Programming</h3>
+      <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+      </ul>
+    </div>
+    <div class="sanam-list-card">
+      <h3>Frameworks &amp; Platforms</h3>
+      <ul>
+        <li>PyTorch</li>
+        <li>scikit-learn</li>
+        <li>SQL</li>
+        <li>PySpark</li>
+      </ul>
+    </div>
+    <div class="sanam-list-card">
+      <h3>Developer tools</h3>
+      <ul>
+        <li>Palantir Foundry:</li>
+        <li> - Code Repositories</li>
+        <li> - Slate </li>
+        <li> - Workshop </li>
+        <li> - Ontology </li>
+        <li>Jira</li>
+      </ul>
+    </div>
+    <div class="sanam-list-card">
+      <h3>Languages</h3>
+      <ul>
+        <li>German (Native)</li>
+        <li>English (Fluent)</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<section id="education" class="sanam-section">
+  <header class="sanam-section__header">
+    <span class="sanam-section__eyebrow">Education</span>
+    <h2 class="sanam-section__title">Academic journey</h2>
+  </header>
+  <div class="sanam-education">
+    <article>
+      <h3>MSc Computer Science (AI focus)</h3>
+      <p>Ludwig Maximilian University · Munich, GER · Apr&nbsp;2024 – Present</p>
+      <ul class="sanam-courses sanam-courses--two-col">
+        <li>Reinforcement Learning</li>
+        <li>Graph Neural Networks</li>
+        <li>Tabular Foundation Models</li>
+        <li>Uncertainty in ML</li>
+      </ul>
+    </article>
+    <article>
+      <h3>BSc Artificial Intelligence</h3>
+      <p>Deggendorf Institute of Technology · Deggendorf, GER · Oct&nbsp;2020 – Mar&nbsp;2024</p>
+      <ul class="sanam-courses sanam-courses--two-col">
+        <li>Machine Learning</li>
+        <li>Deep Learning</li>
+        <li>Bayesian Methods</li>
+        <li>Computer Vision</li>
+      </ul>
+    </article>
+  </div>
+</section>
 
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<section id="contact" class="sanam-section sanam-section--final">
+  <div class="sanam-contact">
+    <div>
+      <h2>Let’s build the next intelligent product.</h2>
+    </div>
+    <div class="sanam-contact__links">
+      <a href="mailto:sanam.meyer@gmail.com">sanam.meyer@gmail.com</a>
+      <a href="tel:+4916097591310">+49&nbsp;160&nbsp;97591310</a>
+      <a href="https://linkedin.com/in/sanamjeet-meyer/">LinkedIn</a>
+    </div>
+  </div>
+</section>

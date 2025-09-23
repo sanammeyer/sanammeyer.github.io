@@ -1,64 +1,63 @@
 ---
-layout: archive
+layout: cv-layout
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
+published: true
 ---
 
-{% include base_path %}
+# Sanamjeet Singh Meyer
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+Munich, Germany  
+[+49 160 97591310](tel:+4916097591310) · [sanam.meyer@gmail.com](mailto:sanam.meyer@gmail.com) · [linkedin.com/in/sanamjeet-meyer](https://linkedin.com/in/sanamjeet-meyer/)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Technical Skills
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **Programming:** Python, JavaScript
+- **Frameworks & Platforms:** PyTorch, scikit-learn, SQL, PySpark
+- **Developer Tools:** Palantir Foundry, Jira
+- **Languages:** German (Native), English (Fluent)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Experience
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+### Working Student &mdash; Big Data Analytics · BMW Group (Munich, GER)  
+_Apr 2024 &ndash; Present_
+- Develop and deploy production dashboards in Palantir Foundry for live vehicle diagnostics and claims data.
+- Enable quality management teams to detect emerging issues faster and streamline root-cause analysis.
+- Build scalable PySpark data pipelines that process terabytes of vehicle telemetry.
+- Engineer LLM-based workflows to cluster customer claims, reducing manual effort by 80% and saving up to €400K per year.
+
+### Working Student &mdash; IT Project Management and Organization · BSH Home Appliances Group (Munich, GER)  
+_Sep 2023 &ndash; Feb 2024_
+- Coordinated Jira-managed projects and supported cross-functional meeting orchestration.
+- Trained team members on new tooling and maintained day-to-day project delivery.
+
+### Working Student / Intern &mdash; Data Science · Dräxlmaier Group (Munich, GER)  
+_Sep 2022 &ndash; Jul 2023_
+- Supported the development of data pipelines capturing BMW vehicle test data.
+- Evaluated feature engineering and classification methods for error detection in test datasets.
+- Implemented a multi-class classification prototype with roughly 90% accuracy and a blueprint for scaled deployment.
+
+## Projects
+
+### Detecting anomalies in elderly people's daily activities · AI4CARE  
+_Aug 2023 &ndash; Jan 2024_
+- Bachelor’s thesis focused on identifying unusual household appliance usage patterns.
+- Built an uncertainty-based reasoning framework to highlight deviations in daily routines.
+
+### Smart recording pipeline for autonomous driving · b-plus Group  
+_Mar 2023 &ndash; Jul 2023_
+- Developed an intelligent recording pipeline that fuses LiDAR and camera data.
+- Leveraged Python and PyTorch for object detection and anomaly segmentation in traffic scenes.
+
+### Predictive maintenance of production lines · BMW Innovation Challenge  
+_May 2023_
+- Detected anomalies in production power data using unsupervised ML methods in Azure ML.
+- Achieved approximately 82% accuracy within a 24-hour sprint.
+
+## Education
+
+- **MSc in Computer Science (Focus on AI)** · Ludwig Maximilian University, Munich, GER (Apr 2024 &ndash; Present)
+- **BSc in Artificial Intelligence** · Deggendorf Institute of Technology, Deggendorf, GER (Oct 2020 &ndash; Mar 2024)

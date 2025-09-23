@@ -6,8 +6,8 @@
   --sanam-site-gutter: clamp(1.5rem, 4vw, 5rem);
   --sanam-frame-max: calc(var(--sanam-page-max) - (var(--sanam-site-gutter) * 2));
   /* Masthead visuals */
-  --sanam-masthead-bg: rgba(255, 255, 255, 0.82);
-  --sanam-masthead-border: rgba(15, 23, 42, 0.08);
+  --sanam-masthead-bg: rgba(255, 255, 255, 0.68);
+  --sanam-masthead-border: rgba(15, 23, 42, 0.06);
   --sanam-background: #f5f5f7;
   --sanam-surface: #ffffff;
   --sanam-surface-soft: #eff1f8;
@@ -44,8 +44,8 @@ html[data-theme="dark"] {
   --global-text-color-light: var(--sanam-text-muted);
   --global-border-color: var(--sanam-border);
   /* Dark masthead visuals */
-  --sanam-masthead-bg: rgba(17, 24, 39, 0.75);
-  --sanam-masthead-border: rgba(148, 163, 184, 0.22);
+  --sanam-masthead-bg: rgba(17, 24, 39, 0.60);
+  --sanam-masthead-border: rgba(148, 163, 184, 0.20);
 }
 
 body {
@@ -645,7 +645,9 @@ html[data-theme="dark"] .sanam-card:hover {
 @media (max-width: 960px) {
   .sanam-hero {
     grid-template-columns: 1fr;
-    text-align: left;
+    /* Center the headline + tag area on narrow viewports */
+    text-align: center;
+    justify-items: center;
     min-height: auto;
   }
 
@@ -656,7 +658,8 @@ html[data-theme="dark"] .sanam-card:hover {
   }
 
   .sanam-hero__cta {
-    justify-content: flex-start;
+    /* Center CTAs beneath text on mobile */
+    justify-content: center;
   }
 
   .sanam-hero-details {
@@ -676,6 +679,8 @@ html[data-theme="dark"] .sanam-card:hover {
   .sanam-hero {
     margin: clamp(1.2rem, 6vw, 2rem) auto clamp(2.4rem, 10vw, 3.5rem);
     padding: clamp(2.2rem, 8vw, 3rem);
+    text-align: center;
+    justify-items: center;
   }
 
   .sanam-portrait {
@@ -700,6 +705,12 @@ html[data-theme="dark"] .sanam-card:hover {
   .sanam-hero__media {
     justify-items: center;
     align-items: center;
+  }
+
+  /* Ensure the small eyebrow tag centers neatly under the masthead */
+  .sanam-eyebrow {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

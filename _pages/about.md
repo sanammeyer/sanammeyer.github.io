@@ -114,6 +114,12 @@ author_profile: false
       <p class="sanam-card__meta">Aug&nbsp;2023 – Jan&nbsp;2024 · AI4CARE</p>
       <h3 class="sanam-card__title">Detecting anomalies in elderly people's daily activities</h3>
       <p class="sanam-card__body">Built a thesis prototype that spots unusual household appliance patterns and flags potential risks using uncertainty-aware reasoning.</p>
+      <div class="sanam-card__actions">
+        <a class="project-link project-link--pdf" href="https://www.scitepress.org/Papers/2025/133541/133541.pdf" title="View paper (PDF)">
+          <span class="project-link__text">Publication</span>
+          <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+        </a>
+      </div>
     </article>
     <article class="sanam-card">
       <p class="sanam-card__meta">Mar&nbsp;2023 – Jul&nbsp;2023 · b-plus Group</p>
@@ -137,36 +143,43 @@ author_profile: false
     <div class="sanam-list-card">
       <h3>Programming</h3>
       <ul>
-        <li>Python</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
+        <li><i class="fa-brands fa-python tool-icon tool-icon--python" aria-hidden="true"></i><span>Python</span></li>
+        <li><i class="fa-brands fa-js tool-icon tool-icon--javascript" aria-hidden="true"></i><span>JavaScript</span></li>
+        <li>
+          <img class="tool-logo tool-logo--typescript" src="{{ '/images/Typescript_logo_2020.svg' | relative_url }}" alt="TypeScript" onerror="this.style.display='none'">
+          <span>TypeScript</span>
+        </li>
       </ul>
     </div>
     <div class="sanam-list-card">
       <h3>Frameworks &amp; Platforms</h3>
       <ul>
-        <li>PyTorch</li>
-        <li>scikit-learn</li>
-        <li>SQL</li>
-        <li>PySpark</li>
+        <li><i class="fa-solid fa-fire tool-icon tool-icon--pytorch" aria-hidden="true"></i><span>PyTorch</span></li>
+        <li><i class="fa-solid fa-flask tool-icon tool-icon--sklearn" aria-hidden="true"></i><span>scikit-learn</span></li>
+        <li><i class="fa-solid fa-database tool-icon tool-icon--sql" aria-hidden="true"></i><span>SQL</span></li>
+        <li><i class="fa-solid fa-bolt tool-icon tool-icon--pyspark" aria-hidden="true"></i><span>PySpark</span></li>
       </ul>
     </div>
     <div class="sanam-list-card">
       <h3>Developer tools</h3>
       <ul>
-        <li>Palantir Foundry:</li>
+        <li>
+          <img class="tool-logo tool-logo--palantir" src="{{ '/images/palantir-logo.svg' | relative_url }}" alt="Palantir" onerror="this.style.display='none'">
+          <!-- <i class="fa-solid fa-cubes tool-icon tool-icon--foundry" aria-hidden="true"></i> -->
+          <span>Palantir Foundry</span>:
+        </li>
         <li> - Code Repositories</li>
         <li> - Slate </li>
         <li> - Workshop </li>
         <li> - Ontology </li>
-        <li>Jira</li>
+        <li><i class="fa-brands fa-jira tool-icon tool-icon--jira" aria-hidden="true"></i><span>Jira</span></li>
       </ul>
     </div>
     <div class="sanam-list-card">
       <h3>Languages</h3>
       <ul>
-        <li>German (Native)</li>
-        <li>English (Fluent)</li>
+        <li><i class="fa-solid fa-language tool-icon tool-icon--german" aria-hidden="true"></i><span>German (Native)</span></li>
+        <li><i class="fa-solid fa-language tool-icon tool-icon--english" aria-hidden="true"></i><span>English (Fluent)</span></li>
       </ul>
     </div>
   </div>

@@ -544,6 +544,32 @@ html[data-theme="dark"] .sanam-card:hover {
   color: var(--sanam-text-muted);
 }
 
+.sanam-card__actions {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+
+.project-link {
+  height: 34px;
+  padding: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  border-radius: 999px;
+  border: 1px solid var(--sanam-border);
+  background: var(--sanam-surface);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.06);
+  color: var(--sanam-text-muted);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+}
+
+.project-link:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(15,23,42,0.12); }
+.project-link--pdf i { color: #EA4335; }
+.project-link__text { font-size: 0.82rem; color: var(--sanam-text); }
+
 .sanam-list-card {
   background: var(--sanam-surface);
   border-radius: 24px;
@@ -572,6 +598,28 @@ html[data-theme="dark"] .sanam-card:hover {
   color: var(--sanam-text-muted);
   font-size: 0.96rem;
 }
+
+.sanam-list-card ul li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tool-icon { width: 1.05em; height: 1.05em; margin-right: 0.1rem; }
+.tool-icon--python { color: #3776AB !important; }
+.tool-icon--javascript { color: #F7DF1E !important; }
+.tool-icon--typescript { color: #3178C6 !important; }
+.tool-icon--pytorch { color: #EE4C2C !important; }
+.tool-icon--sklearn { color: #F89939 !important; }
+.tool-icon--sql { color: #CC2927 !important; }
+.tool-icon--pyspark { color: #E25A1C !important; }
+.tool-icon--foundry { color: #0EA5E9 !important; }
+.tool-icon--jira { color: #0052CC !important; }
+.tool-icon--german { color: #FFCE00 !important; }
+.tool-icon--english { color: #2563EB !important; }
+
+/* Optional image logo for Palantir (if you add images/palantir-logo.svg) */
+.tool-logo { width: 1.1em; height: 1.1em; object-fit: contain; display: inline-block; }
 
 .sanam-education {
   display: grid;

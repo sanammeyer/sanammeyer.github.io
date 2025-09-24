@@ -172,6 +172,7 @@ author_profile: false
         <li> - Slate </li>
         <li> - Workshop </li>
         <li> - Ontology </li>
+        <li><i class="fa-brands fa-git-alt tool-icon tool-icon--git" aria-hidden="true"></i><span>Git</span></li>
         <li><i class="fa-brands fa-jira tool-icon tool-icon--jira" aria-hidden="true"></i><span>Jira</span></li>
       </ul>
     </div>

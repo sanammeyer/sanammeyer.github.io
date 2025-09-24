@@ -77,7 +77,7 @@ author_profile: false
         <li>Enabled cross-functional Quality Management teams to identify emerging issues and accelerate root cause analysis..</li>
         <li>Built PySpark data pipelines to process terabytes of vehicle data using PySpark.</li>
         <li>Engineered an LLM-based clustering workflow that trimmed manual effort by 80% potentially saving up to €400K annually.</li>
-        <li>Designed and deployed an MLOps pipeline to classify system issues from multiple ECU signal streams.</li>
+        <li>Designed and deployed an MLOps pipeline to classify system issues based on multiple ECU signal streams.</li>
       </ul>
     </article>
     <article class="sanam-timeline__item">

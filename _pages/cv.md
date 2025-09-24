@@ -28,6 +28,7 @@ _Apr 2024 &ndash; Present_
 - Enable quality management teams to detect emerging issues faster and streamline root-cause analysis.
 - Build scalable PySpark data pipelines that process terabytes of vehicle telemetry.
 - Engineer LLM-based workflows to cluster customer claims, reducing manual effort by 80% and saving up to €400K per year.
+- Designed and deployed an MLOps pipeline to classify system issues based on multiple ECU signal streams.
 
 ### Working Student &mdash; IT Project Management and Organization · BSH Home Appliances Group (Munich, GER)  
 _Sep 2023 &ndash; Feb 2024_

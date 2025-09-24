@@ -644,6 +644,19 @@ html[data-theme="dark"] .sanam-card:hover {
   color: var(--sanam-text-muted);
 }
 
+/* Education logos inline with institution name */
+.edu-institution {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.edu-logo {
+  height: 20px;
+  width: auto;
+  display: inline-block;
+}
+
 /* Relevant courses list under degrees */
 .sanam-courses {
   margin: 0.6rem 0 0;

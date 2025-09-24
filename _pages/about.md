@@ -193,7 +193,10 @@ author_profile: false
   <div class="sanam-education">
     <article>
       <h3>MSc Computer Science (AI focus)</h3>
-      <p>Ludwig Maximilian University · Munich, GER · Apr&nbsp;2024 – Present</p>
+      <p class="edu-institution">
+        <img class="edu-logo" src="{{ '/images/LMU_Muenchen_logo.svg' | relative_url }}" alt="LMU Munich logo">
+        <span>Ludwig Maximilian University · Munich, GER · Apr&nbsp;2024 – Present</span>
+      </p>
       <ul class="sanam-courses sanam-courses--two-col">
         <li>Reinforcement Learning</li>
         <li>Graph Neural Networks</li>

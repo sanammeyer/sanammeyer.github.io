@@ -194,7 +194,7 @@ author_profile: false
     <article>
       <h3>MSc Computer Science (AI focus)</h3>
       <p class="edu-institution">
-        <img class="edu-logo" src="{{ '/images/LMU_Muenchen_logo.svg' | relative_url }}" alt="LMU Munich logo">
+        <img class="edu-logo" src="{{ '/images/LMU_Muenchen_Logo.svg' | relative_url }}" alt="LMU Munich logo">
         <span>Ludwig Maximilian University · Munich, GER · Apr&nbsp;2024 – Present</span>
       </p>
       <ul class="sanam-courses sanam-courses--two-col">

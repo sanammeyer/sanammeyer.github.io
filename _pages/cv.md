@@ -18,7 +18,7 @@ Munich, Germany
 - **Programming:** Python, JavaScript
 - **Frameworks & Platforms:** PyTorch, scikit-learn, SQL, PySpark
 - **Developer Tools:** Palantir Foundry, Jira
-- **Languages:** German (Native), English (Fluent)
+- **Languages:** German (native), English (fluent)
 
 ## Experience
 

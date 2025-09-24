@@ -178,8 +178,8 @@ author_profile: false
     <div class="sanam-list-card">
       <h3>Languages</h3>
       <ul>
-        <li><i class="fa-solid fa-language tool-icon tool-icon--german" aria-hidden="true"></i><span>German (Native)</span></li>
-        <li><i class="fa-solid fa-language tool-icon tool-icon--english" aria-hidden="true"></i><span>English (Fluent)</span></li>
+        <li><i class="fa-solid fa-language tool-icon tool-icon--german" aria-hidden="true"></i><span>German (native)</span></li>
+        <li><i class="fa-solid fa-language tool-icon tool-icon--english" aria-hidden="true"></i><span>English (fluent)</span></li>
       </ul>
     </div>
   </div>

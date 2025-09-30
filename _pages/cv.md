@@ -27,7 +27,7 @@ _Apr 2024 &ndash; Present_
 - Develop and deploy production dashboards in Palantir Foundry for live vehicle diagnostics and claims data.
 - Enable quality management teams to detect emerging issues faster and streamline root-cause analysis.
 - Build scalable PySpark data pipelines that process terabytes of vehicle telemetry.
-- Engineer LLM-based workflows to cluster customer claims, reducing manual effort by 80% and saving up to €400K per year.
+- Prototyped an LLM-based claims-clustering workflow (embeddings + similarity); ran in shadow mode with QA review; Ops estimate suggests €300–-400k/year productivity uplift.
 - Designed and deployed an MLOps pipeline to classify system issues based on multiple ECU signal streams.
 
 ### Working Student &mdash; IT Project Management and Organization · BSH Home Appliances Group (Munich, GER)  
